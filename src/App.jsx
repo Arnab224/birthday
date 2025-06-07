@@ -7,23 +7,16 @@ import SurpriseBox from './SurpriseBox';
 import { useWindowSize } from 'react-use';
 
 export default function App() {
-  const { width, height } = useWindowSize();
-
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gradient-to-br from-pink-900 via-pink-700 to-pink-800 px-4 py-8">
-      {/* Confetti Animation */}
-      <Confetti width={width} height={height} recycle={false} numberOfPieces={300} />
-
-      {/* Heading */}
-      <h1 className="text-6xl md:text-8xl font-extrabold mb-4 text-center text-neonPink animate-neonText">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300">
+      <h1 className="text-4xl md:text-6xl font-bold text-pink-800 mt-10 text-center">
         🎉 Happy Birthday, Sona! 🎉
       </h1>
-      <p className="mb-10 text-2xl md:text-3xl text-pink-300 text-center max-w-xl drop-shadow-lg animate-glow">
+      <p className="mt-4 text-lg md:text-xl text-pink-700 text-center">
         You make the world brighter just by being in it 💖
       </p>
 
-      {/* Components */}
-      <CountdownTimer targetDate="2025-06-08T00:00:00" />
+      <CountdownTimer targetDate="2025-06-09T00:00:00" />
       <MemoriesCarousel />
       <PhotoGallery />
       <SurpriseBox />
