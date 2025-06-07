@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 export default function PhotoGallery() {
   const images = [
-    'public/images/pic1.jpeg',
-    'public/images/pic2.jpeg',
-    'public/images/pic3.jpeg',
+    '/images/pic1.jpeg',
+    '/images/pic2.jpeg',
+    '/images/pic3.jpeg',
   ];
 
   return (

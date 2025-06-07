@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-const images = ['public/images/pic1.jpeg', 'public/images/pic2.jpeg', 'public/images/pic3.jpeg'];
+const images = ['/images/pic1.jpeg', '/images/pic2.jpeg', '/images/pic3.jpeg'];
 
 export default function MemoriesCarousel() {
   return (
